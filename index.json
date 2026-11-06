@@ -1,0 +1,11 @@
+{
+  "org": "microsoft",
+  "repo": "debugpy",
+  "versions": [
+    {
+      "commit": "54af3783b144d02a0978534d61f411ec7b5305a4",
+      "tag": "",
+      "parsed_at": "2026-11-06T03:53:13.573196+00:00"
+    }
+  ]
+}
