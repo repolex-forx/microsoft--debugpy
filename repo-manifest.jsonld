@@ -8,7 +8,7 @@
     {
       "@id": "https://repolex.ai/r/microsoft/debugpy/commit/54af3783b144d02a0978534d61f411ec7b5305a4",
       "git:hexsha": "54af3783b144d02a0978534d61f411ec7b5305a4",
-      "repolex:parseStatus": "metadata_complete"
+      "repolex:parseStatus": "ast_complete"
     },
     {
       "@id": "https://repolex.ai/r/microsoft/debugpy/commit/be4c0637192c50e257f743198e30a9f0706b0724",
