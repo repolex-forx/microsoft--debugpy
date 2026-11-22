@@ -1,0 +1,7 @@
+[2026-11-22T07:26:13Z] === AST ITERATION 1 START | repo=microsoft/debugpy sha=7ac3d1f2 ===
+[2026-11-22T07:26:13Z] [iter=1] PHASE START: ast repo=microsoft/debugpy sha=7ac3d1f2
+[2026-11-22T07:26:13Z] [iter=1] Building AST aggregate chunks
+[2026-11-22T07:41:08Z] [iter=1] AST chunks built count=2 triples=10426257
+[2026-11-22T07:41:08Z] [iter=1] AST .complete marker written path=/home/runner/work/forx/forx/storage/aggregate/ast/7ac3d1f2c65ccf6b2e62a762863093f0242179f0/.complete
+[2026-11-22T07:41:08Z] [iter=1] PHASE END: ast elapsed_s=895 elapsed_min=14.9
+[2026-11-22T07:41:08Z] [iter=1] Wrote .next-action.json next_action=enrich path=/home/runner/work/forx/forx/storage/aggregate/.next-action.json
