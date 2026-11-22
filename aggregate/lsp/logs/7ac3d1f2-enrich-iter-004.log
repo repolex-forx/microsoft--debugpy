@@ -1,0 +1,115 @@
+[2026-11-22T19:55:10Z] === ENRICH ITERATION 4 START | repo=microsoft/debugpy sha=7ac3d1f2 ===
+[2026-11-22T19:55:10Z] [iter=4] PHASE START: enrich repo=microsoft/debugpy sha=7ac3d1f2 runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/7ac3d1f2-enrich-iter-004.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/7ac3d1f2c65ccf6b2e62a762863093f0242179f0.nq.gz
+[2026-11-22T19:55:10Z] [iter=4] Step 1: Loading AST into disk-backed store mem_mb=77 MB
+[2026-11-22T19:57:03Z] [iter=4] AST store loaded triples=10426204 load_secs=111 mem_mb=1066 MB
+[2026-11-22T19:57:03Z] [iter=4] Step 2: Finding LSP targets mem_mb=1066 MB
+[2026-11-22T19:57:19Z] [iter=4] LSP targets found call_sites=91121 imports=3671 extends=1088 implements=0 secs=16
+[2026-11-22T19:57:28Z] [iter=4] Loaded checkpoint partial graph triples=230655
+[2026-11-22T19:57:29Z] [iter=4] Primed enclosing-def cache from persisted triples entries=3082
+[2026-11-22T19:57:39Z] [iter=4] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=1066 MB
+[2026-11-22T19:58:23Z] [iter=4] Position index built positions=671408 nodes_with_types=868703 secs=44 mem_mb=2385 MB
+[2026-11-22T19:58:23Z] [iter=4] Step 3: Starting LSP resolution mem_mb=2385 MB already_completed_types=[] already_completed_files=113
+[2026-11-22T19:58:23Z] [iter=4] Resolving target type target_type=call_site count=91121
+[2026-11-22T19:58:29Z] [iter=4] HEARTBEAT target_type=call_site elapsed_min=3.3 files_done=0 resolved=0 errors=0 current=src/debugpy/_vendored/pydevd/pydevd_attach_to_process/winappdbg/win32/wtsapi32.py
+[2026-11-22T20:26:12Z] [iter=4] HEARTBEAT target_type=call_site elapsed_min=31.0 files_done=2 resolved=702 errors=0 current=tests/debug/targets.py
+[2026-11-22T20:32:27Z] [iter=4] HEARTBEAT target_type=call_site elapsed_min=37.3 files_done=4 resolved=935 errors=0 current=tests/debugpy/test_multiproc.py
+[2026-11-22T20:37:07Z] [iter=4] HEARTBEAT target_type=call_site elapsed_min=42.0 files_done=5 resolved=1127 errors=0 current=tests/patterns/some.py
+[2026-11-22T20:37:50Z] [iter=4] HEARTBEAT target_type=call_site elapsed_min=42.7 files_done=6 resolved=1150 errors=0 current=src/debugpy/_vendored/pydevd/_pydevd_bundle/_debug_adapter/pydevd_schema_log.py
+[2026-11-22T20:40:33Z] [iter=4] HEARTBEAT target_type=call_site elapsed_min=45.4 files_done=9 resolved=1289 errors=0 current=src/debugpy/_vendored/pydevd/tests_runfiles/test_runfiles.py
+[2026-11-22T20:44:34Z] [iter=4] HEARTBEAT target_type=call_site elapsed_min=49.4 files_done=10 resolved=1531 errors=0 current=src/debugpy/_vendored/pydevd/tests_python/test_pydev_monkey.py
+[2026-11-22T20:47:07Z] [iter=4] HEARTBEAT target_type=call_site elapsed_min=52.0 files_done=11 resolved=1625 errors=0 current=src/debugpy/common/log.py
+[2026-11-22T20:49:24Z] [iter=4] HEARTBEAT target_type=call_site elapsed_min=54.2 files_done=12 resolved=1737 errors=0 current=src/debugpy/_vendored/pydevd/_pydev_bundle/_pydev_calltip_util.py
+[2026-11-22T20:50:15Z] [iter=4] HEARTBEAT target_type=call_site elapsed_min=55.1 files_done=13 resolved=1785 errors=0 current=src/debugpy/_vendored/pydevd/pydevd_attach_to_process/winappdbg/crash.py
+[2026-11-22T20:53:00Z] [iter=4] HEARTBEAT target_type=call_site elapsed_min=57.8 files_done=14 resolved=1913 errors=0 current=src/debugpy/launcher/output.py
+[2026-11-22T20:54:31Z] [iter=4] HEARTBEAT target_type=call_site elapsed_min=59.4 files_done=16 resolved=2029 errors=0 current=tests/debugpy/test_evaluate.py
+[2026-11-22T20:58:45Z] [iter=4] HEARTBEAT target_type=call_site elapsed_min=63.6 files_done=17 resolved=2146 errors=0 current=src/debugpy/_vendored/pydevd/_pydevd_frame_eval/vendored/bytecode/peephole_opt.py
+[2026-11-22T21:01:12Z] [iter=4] HEARTBEAT target_type=call_site elapsed_min=66.0 files_done=18 resolved=2230 errors=0 current=src/debugpy/_vendored/pydevd/tests_python/test_smart_step_into_bytecode.py
+[2026-11-22T21:09:55Z] [iter=4] HEARTBEAT target_type=call_site elapsed_min=74.8 files_done=19 resolved=2543 errors=0 current=src/debugpy/_vendored/pydevd/pydevd_attach_to_process/winappdbg/event.py
+[2026-11-22T21:14:41Z] [iter=4] HEARTBEAT target_type=call_site elapsed_min=79.5 files_done=20 resolved=2696 errors=0 current=src/debugpy/_vendored/pydevd/tests_mainloop/gui-wx.py
+[2026-11-22T21:25:02Z] [iter=4] HEARTBEAT target_type=call_site elapsed_min=89.9 files_done=22 resolved=2954 errors=0 current=src/debugpy/_vendored/pydevd/tests/test_pyserver.py
+[2026-11-22T21:25:47Z] [iter=4] HEARTBEAT target_type=call_site elapsed_min=90.6 files_done=23 resolved=3015 errors=0 current=src/debugpy/_vendored/pydevd/_pydevd_bundle/pydevd_process_net_command.py
+[2026-11-22T21:29:03Z] [iter=4] HEARTBEAT target_type=call_site elapsed_min=93.9 files_done=24 resolved=3138 errors=0 current=src/debugpy/_vendored/pydevd/_pydev_bundle/pydev_ipython_console.py
+[2026-11-22T21:30:25Z] [iter=4] HEARTBEAT target_type=call_site elapsed_min=95.2 files_done=26 resolved=3216 errors=0 current=src/debugpy/_vendored/pydevd/_pydevd_bundle/pydevd_bytecode_utils.py
+[2026-11-22T21:32:22Z] [iter=4] HEARTBEAT target_type=call_site elapsed_min=97.2 files_done=27 resolved=3431 errors=0 current=src/debugpy/_vendored/pydevd/_pydev_bundle/pydev_console_utils.py
+[2026-11-22T21:35:56Z] [iter=4] HEARTBEAT target_type=call_site elapsed_min=100.8 files_done=28 resolved=3563 errors=0 current=src/debugpy/_vendored/pydevd/pycompletionserver.py
+[2026-11-22T21:38:01Z] [iter=4] HEARTBEAT target_type=call_site elapsed_min=102.9 files_done=29 resolved=3680 errors=0 current=src/debugpy/_vendored/pydevd/_pydevd_bundle/pydevd_concurrency_analyser/pydevd_concurrency_logger.py
+[2026-11-22T21:40:39Z] [iter=4] HEARTBEAT target_type=call_site elapsed_min=105.5 files_done=30 resolved=3815 errors=0 current=src/debugpy/_vendored/pydevd/build_tools/rename_pep8.py
+[2026-11-22T21:41:14Z] [iter=4] HEARTBEAT target_type=call_site elapsed_min=106.1 files_done=31 resolved=3859 errors=0 current=src/debugpy/_vendored/pydevd/pydevd_attach_to_process/winappdbg/debug.py
+[2026-11-22T21:46:10Z] [iter=4] HEARTBEAT target_type=call_site elapsed_min=111.0 files_done=32 resolved=4080 errors=0 current=src/debugpy/_vendored/pydevd/tests_python/test_tracing_on_top_level.py
+[2026-11-22T21:47:22Z] [iter=4] HEARTBEAT target_type=call_site elapsed_min=112.2 files_done=33 resolved=4161 errors=0 current=tests/net.py
+[2026-11-22T21:50:30Z] [iter=4] HEARTBEAT target_type=call_site elapsed_min=115.3 files_done=35 resolved=4319 errors=0 current=src/debugpy/_vendored/pydevd/pydevd_attach_to_process/winappdbg/win32/peb_teb.py
+[2026-11-22T21:51:02Z] [iter=4] HEARTBEAT target_type=call_site elapsed_min=115.9 files_done=36 resolved=4353 errors=0 current=src/debugpy/_vendored/pydevd/_pydev_bundle/pydev_ipython_console_011.py
+[2026-11-22T21:51:55Z] [iter=4] HEARTBEAT target_type=call_site elapsed_min=116.8 files_done=37 resolved=4400 errors=0 current=src/debugpy/_vendored/pydevd/_pydev_bundle/pydev_monkey_qt.py
+[2026-11-22T21:53:22Z] [iter=4] HEARTBEAT target_type=call_site elapsed_min=118.2 files_done=38 resolved=4435 errors=0 current=src/debugpy/_vendored/pydevd/tests_python/resources/_debugger_case_skip_breakpoint_in_exceptions.py
+[2026-11-22T21:54:31Z] [iter=4] HEARTBEAT target_type=call_site elapsed_min=119.4 files_done=42 resolved=4545 errors=0 current=src/debugpy/_vendored/pydevd/_pydevd_bundle/pydevd_code_to_source.py
+[2026-11-22T21:56:29Z] [iter=4] HEARTBEAT target_type=call_site elapsed_min=121.3 files_done=43 resolved=4691 errors=0 current=src/debugpy/_vendored/pydevd/_pydevd_bundle/pydevd_console.py
+[2026-11-22T21:57:47Z] [iter=4] HEARTBEAT target_type=call_site elapsed_min=122.6 files_done=44 resolved=4735 errors=0 current=src/debugpy/_vendored/pydevd/pydevd_attach_to_process/winappdbg/window.py
+[2026-11-22T22:02:54Z] [iter=4] HEARTBEAT target_type=call_site elapsed_min=127.7 files_done=45 resolved=4867 errors=0 current=versioneer.py
+[2026-11-22T22:06:31Z] [iter=4] HEARTBEAT target_type=call_site elapsed_min=131.4 files_done=46 resolved=5157 errors=0 current=src/debugpy/_vendored/pydevd/_pydevd_bundle/pydevd_runpy.py
+[2026-11-22T22:08:03Z] [iter=4] HEARTBEAT target_type=call_site elapsed_min=132.9 files_done=47 resolved=5228 errors=0 current=src/debugpy/_vendored/pydevd/_pydev_runfiles/pydev_runfiles.py
+[2026-11-22T22:10:24Z] [iter=4] HEARTBEAT target_type=call_site elapsed_min=135.2 files_done=48 resolved=5415 errors=0 current=src/debugpy/_vendored/pydevd/pydevd_attach_to_process/_test_attach_to_process_linux.py
+[2026-11-22T22:14:47Z] [iter=4] HEARTBEAT target_type=call_site elapsed_min=139.6 files_done=50 resolved=5546 errors=0 current=subrepo.py
+[2026-11-22T22:16:14Z] [iter=4] HEARTBEAT target_type=call_site elapsed_min=141.1 files_done=51 resolved=5617 errors=0 current=src/debugpy/_vendored/pydevd/tests_python/test_sys_monitoring.py
+[2026-11-22T22:16:59Z] [iter=4] HEARTBEAT target_type=call_site elapsed_min=141.8 files_done=52 resolved=5666 errors=0 current=src/debugpy/_vendored/pydevd/tests_python/test_suspended_frames_manager.py
+[2026-11-22T22:17:53Z] [iter=4] HEARTBEAT target_type=call_site elapsed_min=142.7 files_done=53 resolved=5708 errors=0 current=tests/debugpy/test_exception.py
+[2026-11-22T22:20:50Z] [iter=4] HEARTBEAT target_type=call_site elapsed_min=145.7 files_done=54 resolved=5803 errors=0 current=src/debugpy/_vendored/pydevd/pydev_ipython/qt_for_kernel.py
+[2026-11-22T22:31:02Z] [iter=4] HEARTBEAT target_type=call_site elapsed_min=155.9 files_done=56 resolved=6190 errors=0 current=src/debugpy/_vendored/pydevd/pydevd_attach_to_process/winappdbg/win32/dbghelp.py
+[2026-11-22T22:37:48Z] [iter=4] HEARTBEAT target_type=call_site elapsed_min=162.6 files_done=57 resolved=6366 errors=0 current=src/debugpy/_vendored/pydevd/tests_python/resources/my_code/my_code_coroutine_user_unhandled_no_stop.py
+[2026-11-22T22:38:46Z] [iter=4] HEARTBEAT target_type=call_site elapsed_min=163.6 files_done=59 resolved=6421 errors=0 current=src/debugpy/_vendored/pydevd/tests_python/resources/_debugger_case_wait_for_attach_impl.py
+[2026-11-22T22:39:22Z] [iter=4] HEARTBEAT target_type=call_site elapsed_min=164.2 files_done=61 resolved=6455 errors=0 current=src/debugpy/_vendored/pydevd/tests/test_jysimpleTipper.py
+[2026-11-22T22:42:36Z] [iter=4] HEARTBEAT target_type=call_site elapsed_min=167.4 files_done=62 resolved=6576 errors=0 current=src/debugpy/_vendored/pydevd/interpreterInfo.py
+[2026-11-22T22:44:03Z] [iter=4] HEARTBEAT target_type=call_site elapsed_min=168.9 files_done=63 resolved=6645 errors=0 current=src/debugpy/_vendored/pydevd/_pydev_bundle/fsnotify/__init__.py
+[2026-11-22T22:44:53Z] [iter=4] HEARTBEAT target_type=call_site elapsed_min=169.7 files_done=64 resolved=6700 errors=0 current=src/debugpy/_vendored/pydevd/_pydevd_frame_eval/vendored/bytecode/tests/test_bytecode.py
+[2026-11-22T22:51:21Z] [iter=4] HEARTBEAT target_type=call_site elapsed_min=176.2 files_done=65 resolved=6942 errors=0 current=src/debugpy/_vendored/pydevd/tests/test_pydevconsole.py
+[2026-11-22T22:54:01Z] [iter=4] HEARTBEAT target_type=call_site elapsed_min=178.9 files_done=66 resolved=7047 errors=0 current=tests/pytest_hooks.py
+[2026-11-22T22:54:34Z] [iter=4] HEARTBEAT target_type=call_site elapsed_min=179.4 files_done=68 resolved=7075 errors=0 current=tests/debugpy/test_path_mapping.py
+[2026-11-22T22:55:30Z] [iter=4] HEARTBEAT target_type=call_site elapsed_min=180.3 files_done=69 resolved=7104 errors=0 current=src/debugpy/_vendored/pydevd/build_tools/build_binaries_osx.py
+[2026-11-22T22:56:09Z] [iter=4] HEARTBEAT target_type=call_site elapsed_min=181.0 files_done=71 resolved=7158 errors=0 current=src/debugpy/_vendored/pydevd/_pydev_runfiles/pydev_runfiles_parallel_client.py
+[2026-11-22T22:56:44Z] [iter=4] HEARTBEAT target_type=call_site elapsed_min=181.6 files_done=72 resolved=7199 errors=0 current=tests/test_data/bp/a&b/test.py
+[2026-11-22T22:58:46Z] [iter=4] HEARTBEAT target_type=call_site elapsed_min=183.6 files_done=74 resolved=7258 errors=0 current=src/debugpy/_vendored/pydevd/pydevd_plugins/extensions/types/pydevd_helpers.py
+[2026-11-22T22:59:28Z] [iter=4] HEARTBEAT target_type=call_site elapsed_min=184.3 files_done=78 resolved=7328 errors=0 current=tests/debugpy/test_log.py
+[2026-11-22T23:00:01Z] [iter=4] HEARTBEAT target_type=call_site elapsed_min=184.8 files_done=79 resolved=7342 errors=0 current=src/debugpy/adapter/servers.py
+[2026-11-22T23:03:01Z] [iter=4] HEARTBEAT target_type=call_site elapsed_min=187.9 files_done=80 resolved=7465 errors=0 current=src/debugpy/_vendored/pydevd/pydev_ipython/inputhookqt4.py
+[2026-11-22T23:03:32Z] [iter=4] HEARTBEAT target_type=call_site elapsed_min=188.4 files_done=81 resolved=7484 errors=0 current=tests/debugpy/test_completions.py
+[2026-11-22T23:04:24Z] [iter=4] HEARTBEAT target_type=call_site elapsed_min=189.2 files_done=82 resolved=7511 errors=0 current=tests/debugpy/test_gevent.py
+[2026-11-22T23:05:36Z] [iter=4] HEARTBEAT target_type=call_site elapsed_min=190.4 files_done=84 resolved=7564 errors=0 current=src/debugpy/_vendored/pydevd/_pydevd_bundle/pydevd_filtering.py
+[2026-11-22T23:07:14Z] [iter=4] HEARTBEAT target_type=call_site elapsed_min=192.1 files_done=85 resolved=7672 errors=0 current=tests/debugpy/test_exclude_rules.py
+[2026-11-22T23:08:12Z] [iter=4] HEARTBEAT target_type=call_site elapsed_min=193.0 files_done=86 resolved=7700 errors=0 current=src/debugpy/_vendored/pydevd/build_tools/generate_code.py
+[2026-11-22T23:13:15Z] [iter=4] HEARTBEAT target_type=call_site elapsed_min=198.1 files_done=88 resolved=8036 errors=0 current=tests/debugpy/test_numpy.py
+[2026-11-22T23:15:59Z] [iter=4] HEARTBEAT target_type=call_site elapsed_min=200.8 files_done=92 resolved=8127 errors=0 current=src/debugpy/_vendored/pydevd/_pydevd_bundle/pydevd_suspended_frames.py
+[2026-11-22T23:18:19Z] [iter=4] HEARTBEAT target_type=call_site elapsed_min=203.2 files_done=93 resolved=8227 errors=0 current=src/debugpy/_vendored/pydevd/_pydevd_bundle/pydevd_net_command.py
+[2026-11-22T23:18:54Z] [iter=4] HEARTBEAT target_type=call_site elapsed_min=203.7 files_done=94 resolved=8252 errors=0 current=src/debugpy/common/json.py
+[2026-11-22T23:19:39Z] [iter=4] HEARTBEAT target_type=call_site elapsed_min=204.5 files_done=95 resolved=8323 errors=0 current=src/debugpy/_vendored/pydevd/build_tools/check_no_git_modifications.py
+[2026-11-22T23:20:31Z] [iter=4] HEARTBEAT target_type=call_site elapsed_min=205.4 files_done=99 resolved=8384 errors=0 current=src/debugpy/_vendored/pydevd/_pydevd_bundle/pydevd_xml.py
+[2026-11-22T23:22:06Z] [iter=4] HEARTBEAT target_type=call_site elapsed_min=206.9 files_done=100 resolved=8485 errors=0 current=src/debugpy/_vendored/pydevd/_pydevd_frame_eval/vendored/bytecode/__init__.py
+[2026-11-22T23:24:39Z] [iter=4] HEARTBEAT target_type=call_site elapsed_min=209.5 files_done=102 resolved=8605 errors=0 current=tests/DEBUGGEE_PYTHONPATH/debuggee/backchannel.py
+[2026-11-22T23:26:36Z] [iter=4] HEARTBEAT target_type=call_site elapsed_min=211.4 files_done=104 resolved=8664 errors=0 current=src/debugpy/_vendored/pydevd/tests_python/resources/_debugger_case_gui_event_loop_qt5.py
+[2026-11-22T23:28:41Z] [iter=4] HEARTBEAT target_type=call_site elapsed_min=213.5 files_done=107 resolved=8739 errors=0 current=src/debugpy/_vendored/pydevd/_pydevd_bundle/pydevconsole_code.py
+[2026-11-22T23:30:03Z] [iter=4] HEARTBEAT target_type=call_site elapsed_min=214.9 files_done=108 resolved=8803 errors=0 current=src/debugpy/_vendored/pydevd/setup.py
+[2026-11-22T23:30:36Z] [iter=4] HEARTBEAT target_type=call_site elapsed_min=215.4 files_done=110 resolved=8874 errors=0 current=src/debugpy/_vendored/pydevd/tests_python/resources/_pydevd_test_find_main_thread_id.py
+[2026-11-22T23:31:12Z] [iter=4] HEARTBEAT target_type=call_site elapsed_min=216.0 files_done=111 resolved=8939 errors=0 current=tests/patterns/_impl.py
+[2026-11-22T23:32:07Z] [iter=4] HEARTBEAT target_type=call_site elapsed_min=216.9 files_done=112 resolved=9010 errors=0 current=src/debugpy/_vendored/pydevd/tests_python/resources/_debugger_case_frame_eval.py
+[2026-11-22T23:32:39Z] [iter=4] HEARTBEAT target_type=call_site elapsed_min=217.5 files_done=114 resolved=9038 errors=0 current=src/debugpy/_vendored/pydevd/tests_python/resources/wrong_bytecode/helper/helper/helper/__init__.py
+[2026-11-22T23:33:39Z] [iter=4] HEARTBEAT target_type=call_site elapsed_min=218.5 files_done=116 resolved=9067 errors=0 current=src/debugpy/_vendored/pydevd/_pydevd_frame_eval/vendored/bytecode/instr.py
+[2026-11-22T23:34:24Z] [iter=4] HEARTBEAT target_type=call_site elapsed_min=219.2 files_done=117 resolved=9141 errors=0 current=src/debugpy/_vendored/pydevd/pydevd_attach_to_process/_always_live_program.py
+[2026-11-22T23:37:30Z] [iter=4] HEARTBEAT target_type=call_site elapsed_min=222.3 files_done=119 resolved=9260 errors=0 current=src/debugpy/_vendored/pydevd/_pydevd_frame_eval/vendored/bytecode/bytecode.py
+[2026-11-22T23:38:30Z] [iter=4] HEARTBEAT target_type=call_site elapsed_min=223.3 files_done=120 resolved=9322 errors=0 current=src/debugpy/_vendored/pydevd/pydev_run_in_console.py
+[2026-11-22T23:39:15Z] [iter=4] HEARTBEAT target_type=call_site elapsed_min=224.1 files_done=121 resolved=9364 errors=0 current=src/debugpy/_vendored/pydevd/tests/test_check_pydevconsole.py
+[2026-11-22T23:39:55Z] [iter=4] HEARTBEAT target_type=call_site elapsed_min=224.7 files_done=122 resolved=9396 errors=0 current=src/debugpy/_vendored/pydevd/tests_python/resources/_debugger_case_breakpoint_remote.py
+[2026-11-22T23:40:52Z] [iter=4] HEARTBEAT target_type=call_site elapsed_min=225.7 files_done=124 resolved=9512 errors=0 current=src/debugpy/_vendored/pydevd/pydev_ipython/version.py
+[2026-11-22T23:41:23Z] [iter=4] HEARTBEAT target_type=call_site elapsed_min=226.2 files_done=126 resolved=9535 errors=0 current=src/debugpy/_vendored/pydevd/_pydevd_bundle/pydevd_dont_trace.py
+[2026-11-22T23:41:59Z] [iter=4] HEARTBEAT target_type=call_site elapsed_min=226.8 files_done=132 resolved=9625 errors=0 current=tests/debugpy/test_django.py
+[2026-11-22T23:43:44Z] [iter=4] HEARTBEAT target_type=call_site elapsed_min=228.6 files_done=133 resolved=9671 errors=0 current=src/debugpy/_vendored/pydevd/pydev_ipython/matplotlibtools.py
+[2026-11-22T23:44:26Z] [iter=4] HEARTBEAT target_type=call_site elapsed_min=229.3 files_done=134 resolved=9698 errors=0 current=src/debugpy/_vendored/pydevd/tests_python/resources/_debugger_case2.py
+[2026-11-22T23:45:16Z] [iter=4] HEARTBEAT target_type=call_site elapsed_min=230.1 files_done=136 resolved=9732 errors=0 current=src/debugpy/_vendored/pydevd/pydevd_attach_to_process/winappdbg/util.py
+[2026-11-22T23:46:46Z] [iter=4] HEARTBEAT target_type=call_site elapsed_min=231.6 files_done=137 resolved=9786 errors=0 current=src/debugpy/_vendored/pydevd/tests_python/regression_check.py
+[2026-11-22T23:47:20Z] [iter=4] HEARTBEAT target_type=call_site elapsed_min=232.2 files_done=138 resolved=9836 errors=0 current=src/debugpy/_vendored/pydevd/tests_python/resources/not_my_code/main_on_entry.py
+[2026-11-22T23:48:38Z] [iter=4] HEARTBEAT target_type=call_site elapsed_min=233.5 files_done=140 resolved=9896 errors=0 current=src/debugpy/_vendored/pydevd/runfiles.py
+[2026-11-22T23:49:18Z] [iter=4] HEARTBEAT target_type=call_site elapsed_min=234.1 files_done=141 resolved=9984 errors=0 current=src/debugpy/_vendored/pydevd/pydev_coverage.py
+[2026-11-22T23:50:10Z] [iter=4] HEARTBEAT target_type=call_site elapsed_min=235.0 files_done=144 resolved=10084 errors=0 current=src/debugpy/_vendored/__init__.py
+[2026-11-22T23:52:04Z] [iter=4] HEARTBEAT target_type=call_site elapsed_min=236.9 files_done=146 resolved=10195 errors=0 current=src/debugpy/_vendored/pydevd/tests_python/resources/_debugger_case_method_single_line.py
+[2026-11-22T23:53:49Z] [iter=4] HEARTBEAT target_type=call_site elapsed_min=238.6 files_done=149 resolved=10245 errors=0 current=src/debugpy/_vendored/pydevd/tests_python/resources/_debugger_case_remote_threads.py
+[2026-11-22T23:55:18Z] [iter=4] CHECKPOINT TRIGGERED elapsed_min=240.1 files_completed=263 new_files_this_iter=150 mem_mb=2474 MB
+[2026-11-22T23:55:18Z] [iter=4] Writing partial enrichment graph path=/home/runner/work/forx/forx/storage/aggregate/lsp/7ac3d1f2c65ccf6b2e62a762863093f0242179f0.nq.gz triples=324338
+[2026-11-22T23:55:21Z] [iter=4] Checkpoint written, exiting with code 7
+[2026-11-22T23:55:21Z] [iter=4] PHASE END: enrich (checkpointed) elapsed_s=14408 elapsed_min=240.1 files_completed=263
