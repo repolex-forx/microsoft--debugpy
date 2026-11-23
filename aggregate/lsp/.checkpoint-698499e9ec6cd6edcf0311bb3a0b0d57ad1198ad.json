@@ -3,6 +3,7 @@
   "completed_files": [
     "src/debugpy/_vendored/pydevd/_pydev_bundle/pydev_console_utils.py",
     "src/debugpy/_vendored/pydevd/_pydev_runfiles/pydev_runfiles.py",
+    "src/debugpy/_vendored/pydevd/_pydev_runfiles/pydev_runfiles_parallel_client.py",
     "src/debugpy/_vendored/pydevd/_pydev_runfiles/pydev_runfiles_pytest2.py",
     "src/debugpy/_vendored/pydevd/_pydevd_bundle/_debug_adapter/__main__pydevd_gen_debug_adapter_protocol.py",
     "src/debugpy/_vendored/pydevd/_pydevd_bundle/_debug_adapter/pydevd_schema.py",
@@ -15,6 +16,7 @@
     "src/debugpy/_vendored/pydevd/_pydevd_bundle/pydevd_frame.py",
     "src/debugpy/_vendored/pydevd/_pydevd_bundle/pydevd_net_command_factory_json.py",
     "src/debugpy/_vendored/pydevd/_pydevd_bundle/pydevd_process_net_command.py",
+    "src/debugpy/_vendored/pydevd/_pydevd_bundle/pydevd_process_net_command_json.py",
     "src/debugpy/_vendored/pydevd/_pydevd_bundle/pydevd_resolver.py",
     "src/debugpy/_vendored/pydevd/_pydevd_bundle/pydevd_runpy.py",
     "src/debugpy/_vendored/pydevd/_pydevd_bundle/pydevd_safe_repr.py",
@@ -43,6 +45,7 @@
     "src/debugpy/_vendored/pydevd/pydevd_attach_to_process/common/py_version.hpp",
     "src/debugpy/_vendored/pydevd/pydevd_attach_to_process/common/ref_utils.hpp",
     "src/debugpy/_vendored/pydevd/pydevd_attach_to_process/linux_and_mac/attach.cpp",
+    "src/debugpy/_vendored/pydevd/pydevd_attach_to_process/winappdbg/__init__.py",
     "src/debugpy/_vendored/pydevd/pydevd_attach_to_process/winappdbg/breakpoint.py",
     "src/debugpy/_vendored/pydevd/pydevd_attach_to_process/winappdbg/compat.py",
     "src/debugpy/_vendored/pydevd/pydevd_attach_to_process/winappdbg/crash.py",
@@ -93,7 +96,9 @@
     "tests/debugpy/test_completions.py",
     "tests/debugpy/test_env.py",
     "tests/debugpy/test_evaluate.py",
+    "tests/debugpy/test_exception.py",
     "tests/debugpy/test_gevent.py",
+    "tests/debugpy/test_multiproc.py",
     "tests/debugpy/test_run.py",
     "tests/patterns/_impl.py",
     "tests/tests/test_timeline.py",
@@ -107,7 +112,7 @@
     "output_path": "/home/runner/work/forx/forx/storage/aggregate/lsp/698499e9ec6cd6edcf0311bb3a0b0d57ad1198ad.nq.gz",
     "call_sites": 91092,
     "import_statements": 3667,
-    "call_targets_resolved": 16338,
+    "call_targets_resolved": 16928,
     "import_targets_resolved": 0,
     "symbols_exported": 0,
     "external_resolved": 0,
@@ -121,5 +126,5 @@
     "extends_class_denormalized": 1064,
     "implements_interface_denormalized": 0
   },
-  "elapsed_seconds": 1808
+  "elapsed_seconds": 1805
 }
