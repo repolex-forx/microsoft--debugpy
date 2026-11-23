@@ -1,7 +1,10 @@
 {
   "commit_sha": "698499e9ec6cd6edcf0311bb3a0b0d57ad1198ad",
   "completed_files": [
+    "setup.py",
+    "src/debugpy/_vendored/pydevd/_pydev_bundle/_pydev_jy_imports_tipper.py",
     "src/debugpy/_vendored/pydevd/_pydev_bundle/pydev_console_utils.py",
+    "src/debugpy/_vendored/pydevd/_pydev_bundle/pydev_monkey.py",
     "src/debugpy/_vendored/pydevd/_pydev_runfiles/pydev_runfiles.py",
     "src/debugpy/_vendored/pydevd/_pydev_runfiles/pydev_runfiles_parallel_client.py",
     "src/debugpy/_vendored/pydevd/_pydev_runfiles/pydev_runfiles_pytest2.py",
@@ -29,12 +32,14 @@
     "src/debugpy/_vendored/pydevd/_pydevd_bundle/pydevd_safe_repr.py",
     "src/debugpy/_vendored/pydevd/_pydevd_bundle/pydevd_signature.py",
     "src/debugpy/_vendored/pydevd/_pydevd_bundle/pydevd_source_mapping.py",
+    "src/debugpy/_vendored/pydevd/_pydevd_bundle/pydevd_stackless.py",
     "src/debugpy/_vendored/pydevd/_pydevd_bundle/pydevd_thread_lifecycle.py",
     "src/debugpy/_vendored/pydevd/_pydevd_bundle/pydevd_vars.py",
     "src/debugpy/_vendored/pydevd/_pydevd_bundle/pydevd_xml.py",
     "src/debugpy/_vendored/pydevd/_pydevd_frame_eval/pydevd_frame_evaluator.c",
     "src/debugpy/_vendored/pydevd/_pydevd_frame_eval/release_mem.h",
     "src/debugpy/_vendored/pydevd/_pydevd_frame_eval/vendored/bytecode/concrete.py",
+    "src/debugpy/_vendored/pydevd/_pydevd_frame_eval/vendored/bytecode/instr.py",
     "src/debugpy/_vendored/pydevd/_pydevd_frame_eval/vendored/bytecode/peephole_opt.py",
     "src/debugpy/_vendored/pydevd/_pydevd_frame_eval/vendored/bytecode/tests/__init__.py",
     "src/debugpy/_vendored/pydevd/_pydevd_frame_eval/vendored/bytecode/tests/test_bytecode.py",
@@ -44,6 +49,7 @@
     "src/debugpy/_vendored/pydevd/_pydevd_frame_eval/vendored/bytecode/tests/test_peephole_opt.py",
     "src/debugpy/_vendored/pydevd/_pydevd_sys_monitoring/_pydevd_sys_monitoring.py",
     "src/debugpy/_vendored/pydevd/_pydevd_sys_monitoring/_pydevd_sys_monitoring_cython.c",
+    "src/debugpy/_vendored/pydevd/build_tools/build_binaries_osx.py",
     "src/debugpy/_vendored/pydevd/build_tools/check_no_git_modifications.py",
     "src/debugpy/_vendored/pydevd/build_tools/generate_code.py",
     "src/debugpy/_vendored/pydevd/pycompletionserver.py",
@@ -98,6 +104,7 @@
     "src/debugpy/_vendored/pydevd/tests/test_jyserver.py",
     "src/debugpy/_vendored/pydevd/tests/test_jysimpleTipper.py",
     "src/debugpy/_vendored/pydevd/tests/test_pydev_ipython_011.py",
+    "src/debugpy/_vendored/pydevd/tests/test_pyserver.py",
     "src/debugpy/_vendored/pydevd/tests/test_simpleTipper.py",
     "src/debugpy/_vendored/pydevd/tests_mainloop/gui-wx.py",
     "src/debugpy/_vendored/pydevd/tests_python/debugger_unittest.py",
@@ -128,6 +135,7 @@
     "src/debugpy/_vendored/pydevd/tests_python/test_tracing_on_top_level.py",
     "src/debugpy/_vendored/pydevd/tests_python/test_utilities.py",
     "src/debugpy/_vendored/pydevd/tests_runfiles/test_pydevdio.py",
+    "src/debugpy/_vendored/pydevd/tests_runfiles/test_runfiles.py",
     "src/debugpy/_version.py",
     "src/debugpy/adapter/clients.py",
     "src/debugpy/adapter/launchers.py",
@@ -163,7 +171,7 @@
     "output_path": "/home/runner/work/forx/forx/storage/aggregate/lsp/698499e9ec6cd6edcf0311bb3a0b0d57ad1198ad.nq.gz",
     "call_sites": 91092,
     "import_statements": 3667,
-    "call_targets_resolved": 23589,
+    "call_targets_resolved": 24472,
     "import_targets_resolved": 0,
     "symbols_exported": 0,
     "external_resolved": 0,
@@ -177,5 +185,5 @@
     "extends_class_denormalized": 1064,
     "implements_interface_denormalized": 0
   },
-  "elapsed_seconds": 1810
+  "elapsed_seconds": 1802
 }
