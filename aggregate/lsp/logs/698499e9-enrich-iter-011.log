@@ -1,0 +1,19 @@
+[2026-11-23T09:38:05Z] === ENRICH ITERATION 11 START | repo=microsoft/debugpy sha=698499e9 ===
+[2026-11-23T09:38:05Z] [iter=11] PHASE START: enrich repo=microsoft/debugpy sha=698499e9 runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/698499e9-enrich-iter-011.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/698499e9ec6cd6edcf0311bb3a0b0d57ad1198ad.nq.gz
+[2026-11-23T09:38:05Z] [iter=11] Step 1: Loading AST into disk-backed store mem_mb=77 MB
+[2026-11-23T09:40:14Z] [iter=11] AST store loaded triples=10422880 load_secs=125 mem_mb=1151 MB
+[2026-11-23T09:40:14Z] [iter=11] Step 2: Finding LSP targets mem_mb=1151 MB
+[2026-11-23T09:40:38Z] [iter=11] LSP targets found call_sites=91092 imports=3667 extends=1088 implements=0 secs=24
+[2026-11-23T09:40:48Z] [iter=11] Loaded checkpoint partial graph triples=145559
+[2026-11-23T09:40:48Z] [iter=11] Primed enclosing-def cache from persisted triples entries=1426
+[2026-11-23T09:41:02Z] [iter=11] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=1151 MB
+[2026-11-23T09:42:20Z] [iter=11] Position index built positions=671185 nodes_with_types=868410 secs=77 mem_mb=2146 MB
+[2026-11-23T09:42:20Z] [iter=11] Step 3: Starting LSP resolution mem_mb=2146 MB already_completed_types=[] already_completed_files=47
+[2026-11-23T09:42:20Z] [iter=11] Resolving target type target_type=call_site count=91092
+[2026-11-23T09:42:24Z] [iter=11] HEARTBEAT target_type=call_site elapsed_min=4.3 files_done=0 resolved=0 errors=0 current=src/debugpy/_vendored/pydevd/_pydevd_bundle/pydevd_concurrency_analyser/pydevd_concurrency_logger.py
+[2026-11-23T09:43:57Z] [iter=11] HEARTBEAT target_type=call_site elapsed_min=5.9 files_done=1 resolved=48 errors=0 current=src/debugpy/_vendored/pydevd/pydevd_attach_to_process/winappdbg/win32/user32.py
+[2026-11-23T09:58:59Z] [iter=11] HEARTBEAT target_type=call_site elapsed_min=20.9 files_done=2 resolved=318 errors=0 current=src/debugpy/_vendored/pydevd/_pydevd_frame_eval/vendored/bytecode/tests/test_concrete.py
+[2026-11-23T10:08:16Z] [iter=11] CHECKPOINT TRIGGERED elapsed_min=30.2 files_completed=49 new_files_this_iter=2 mem_mb=2146 MB
+[2026-11-23T10:08:16Z] [iter=11] Writing partial enrichment graph path=/home/runner/work/forx/forx/storage/aggregate/lsp/698499e9ec6cd6edcf0311bb3a0b0d57ad1198ad.nq.gz triples=150405
+[2026-11-23T10:08:17Z] [iter=11] Checkpoint written, exiting with code 7
+[2026-11-23T10:08:17Z] [iter=11] PHASE END: enrich (checkpointed) elapsed_s=1810 elapsed_min=30.2 files_completed=49
