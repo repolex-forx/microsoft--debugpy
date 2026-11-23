@@ -30,6 +30,7 @@
     "src/debugpy/_vendored/pydevd/pycompletionserver.py",
     "src/debugpy/_vendored/pydevd/pydev_ipython/inputhookqt4.py",
     "src/debugpy/_vendored/pydevd/pydev_ipython/matplotlibtools.py",
+    "src/debugpy/_vendored/pydevd/pydevconsole.py",
     "src/debugpy/_vendored/pydevd/pydevd_attach_to_process/_always_live_program.py",
     "src/debugpy/_vendored/pydevd/pydevd_attach_to_process/_test_attach_to_process.py",
     "src/debugpy/_vendored/pydevd/pydevd_attach_to_process/common/py_custom_pyeval_settrace.hpp",
@@ -47,6 +48,7 @@
     "src/debugpy/_vendored/pydevd/pydevd_attach_to_process/winappdbg/process.py",
     "src/debugpy/_vendored/pydevd/pydevd_attach_to_process/winappdbg/search.py",
     "src/debugpy/_vendored/pydevd/pydevd_attach_to_process/winappdbg/thread.py",
+    "src/debugpy/_vendored/pydevd/pydevd_attach_to_process/winappdbg/util.py",
     "src/debugpy/_vendored/pydevd/pydevd_attach_to_process/winappdbg/win32/kernel32.py",
     "src/debugpy/_vendored/pydevd/pydevd_attach_to_process/winappdbg/win32/user32.py",
     "src/debugpy/_vendored/pydevd/pydevd_attach_to_process/winappdbg/window.py",
@@ -60,7 +62,9 @@
     "src/debugpy/_vendored/pydevd/setup_pydevd_cython.py",
     "src/debugpy/_vendored/pydevd/tests/test_get_referrers.py",
     "src/debugpy/_vendored/pydevd/tests/test_jyserver.py",
+    "src/debugpy/_vendored/pydevd/tests/test_pydev_ipython_011.py",
     "src/debugpy/_vendored/pydevd/tests/test_simpleTipper.py",
+    "src/debugpy/_vendored/pydevd/tests_mainloop/gui-wx.py",
     "src/debugpy/_vendored/pydevd/tests_python/debugger_unittest.py",
     "src/debugpy/_vendored/pydevd/tests_python/performance_check.py",
     "src/debugpy/_vendored/pydevd/tests_python/resources/_bytecode_overflow_example.py",
@@ -73,6 +77,7 @@
     "src/debugpy/_vendored/pydevd/tests_python/test_pydev_monkey.py",
     "src/debugpy/_vendored/pydevd/tests_python/test_safe_repr.py",
     "src/debugpy/_vendored/pydevd/tests_python/test_single_notification.py",
+    "src/debugpy/_vendored/pydevd/tests_python/test_smart_step_into_bytecode.py",
     "src/debugpy/_vendored/pydevd/tests_python/test_tracing_on_top_level.py",
     "src/debugpy/_vendored/pydevd/tests_python/test_utilities.py",
     "src/debugpy/_version.py",
@@ -86,6 +91,7 @@
     "tests/debugpy/test_gevent.py",
     "tests/patterns/_impl.py",
     "tests/tests/test_timeline.py",
+    "tests/timeline.py",
     "versioneer.py"
   ],
   "completed_types": [],
@@ -94,7 +100,7 @@
     "output_path": "/home/runner/work/forx/forx/storage/aggregate/lsp/698499e9ec6cd6edcf0311bb3a0b0d57ad1198ad.nq.gz",
     "call_sites": 91092,
     "import_statements": 3667,
-    "call_targets_resolved": 14814,
+    "call_targets_resolved": 15552,
     "import_targets_resolved": 0,
     "symbols_exported": 0,
     "external_resolved": 0,
@@ -108,5 +114,5 @@
     "extends_class_denormalized": 1064,
     "implements_interface_denormalized": 0
   },
-  "elapsed_seconds": 1802
+  "elapsed_seconds": 1811
 }
