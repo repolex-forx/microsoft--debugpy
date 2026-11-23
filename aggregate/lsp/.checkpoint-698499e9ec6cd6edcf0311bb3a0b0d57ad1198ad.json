@@ -1,9 +1,11 @@
 {
   "commit_sha": "698499e9ec6cd6edcf0311bb3a0b0d57ad1198ad",
   "completed_files": [
+    "src/debugpy/_vendored/pydevd/_pydevd_bundle/pydevd_comm.py",
     "src/debugpy/_vendored/pydevd/_pydevd_bundle/pydevd_cython.c",
     "src/debugpy/_vendored/pydevd/_pydevd_bundle/pydevd_frame.py",
     "src/debugpy/_vendored/pydevd/_pydevd_bundle/pydevd_resolver.py",
+    "src/debugpy/_vendored/pydevd/_pydevd_bundle/pydevd_source_mapping.py",
     "src/debugpy/_vendored/pydevd/_pydevd_frame_eval/pydevd_frame_evaluator.c",
     "src/debugpy/_vendored/pydevd/_pydevd_frame_eval/release_mem.h",
     "src/debugpy/_vendored/pydevd/_pydevd_frame_eval/vendored/bytecode/tests/test_cfg.py",
@@ -23,7 +25,10 @@
     "src/debugpy/_vendored/pydevd/pydevd_attach_to_process/windows/py_win_helpers.hpp",
     "src/debugpy/_vendored/pydevd/pydevd_attach_to_process/windows/run_code_in_memory.hpp",
     "src/debugpy/_vendored/pydevd/pydevd_attach_to_process/windows/run_code_on_dllmain.cpp",
-    "src/debugpy/_vendored/pydevd/tests_python/test_utilities.py"
+    "src/debugpy/_vendored/pydevd/tests_python/test_debugger.py",
+    "src/debugpy/_vendored/pydevd/tests_python/test_single_notification.py",
+    "src/debugpy/_vendored/pydevd/tests_python/test_utilities.py",
+    "tests/tests/test_timeline.py"
   ],
   "completed_types": [],
   "stats": {
@@ -31,7 +36,7 @@
     "output_path": "/home/runner/work/forx/forx/storage/aggregate/lsp/698499e9ec6cd6edcf0311bb3a0b0d57ad1198ad.nq.gz",
     "call_sites": 91092,
     "import_statements": 3667,
-    "call_targets_resolved": 2323,
+    "call_targets_resolved": 3399,
     "import_targets_resolved": 0,
     "symbols_exported": 0,
     "external_resolved": 0,
@@ -45,5 +50,5 @@
     "extends_class_denormalized": 1064,
     "implements_interface_denormalized": 0
   },
-  "elapsed_seconds": 1805
+  "elapsed_seconds": 1809
 }
