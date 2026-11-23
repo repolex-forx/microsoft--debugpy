@@ -6,6 +6,7 @@
     "src/debugpy/_vendored/pydevd/_pydevd_bundle/pydevd_resolver.py",
     "src/debugpy/_vendored/pydevd/_pydevd_frame_eval/pydevd_frame_evaluator.c",
     "src/debugpy/_vendored/pydevd/_pydevd_frame_eval/release_mem.h",
+    "src/debugpy/_vendored/pydevd/_pydevd_frame_eval/vendored/bytecode/tests/test_cfg.py",
     "src/debugpy/_vendored/pydevd/_pydevd_sys_monitoring/_pydevd_sys_monitoring_cython.c",
     "src/debugpy/_vendored/pydevd/pydevd_attach_to_process/common/py_custom_pyeval_settrace.hpp",
     "src/debugpy/_vendored/pydevd/pydevd_attach_to_process/common/py_custom_pyeval_settrace_310.hpp",
@@ -16,6 +17,7 @@
     "src/debugpy/_vendored/pydevd/pydevd_attach_to_process/common/py_version.hpp",
     "src/debugpy/_vendored/pydevd/pydevd_attach_to_process/common/ref_utils.hpp",
     "src/debugpy/_vendored/pydevd/pydevd_attach_to_process/linux_and_mac/attach.cpp",
+    "src/debugpy/_vendored/pydevd/pydevd_attach_to_process/winappdbg/win32/kernel32.py",
     "src/debugpy/_vendored/pydevd/pydevd_attach_to_process/windows/attach.cpp",
     "src/debugpy/_vendored/pydevd/pydevd_attach_to_process/windows/inject_dll.cpp",
     "src/debugpy/_vendored/pydevd/pydevd_attach_to_process/windows/py_win_helpers.hpp",
@@ -29,7 +31,7 @@
     "output_path": "/home/runner/work/forx/forx/storage/aggregate/lsp/698499e9ec6cd6edcf0311bb3a0b0d57ad1198ad.nq.gz",
     "call_sites": 91092,
     "import_statements": 3667,
-    "call_targets_resolved": 1431,
+    "call_targets_resolved": 2323,
     "import_targets_resolved": 0,
     "symbols_exported": 0,
     "external_resolved": 0,
@@ -43,5 +45,5 @@
     "extends_class_denormalized": 1064,
     "implements_interface_denormalized": 0
   },
-  "elapsed_seconds": 1806
+  "elapsed_seconds": 1805
 }
