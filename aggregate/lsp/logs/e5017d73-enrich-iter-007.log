@@ -1,0 +1,17 @@
+[2026-11-24T05:24:39Z] === ENRICH ITERATION 7 START | repo=microsoft/debugpy sha=e5017d73 ===
+[2026-11-24T05:24:39Z] [iter=7] PHASE START: enrich repo=microsoft/debugpy sha=e5017d73 runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/e5017d73-enrich-iter-007.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/e5017d736052d8d84484cdfe05750bd61cc7c50f.nq.gz
+[2026-11-24T05:24:39Z] [iter=7] Step 1: Loading AST into disk-backed store mem_mb=77 MB
+[2026-11-24T05:27:44Z] [iter=7] AST store loaded triples=10417946 load_secs=182 mem_mb=1086 MB
+[2026-11-24T05:27:44Z] [iter=7] Step 2: Finding LSP targets mem_mb=1086 MB
+[2026-11-24T05:28:04Z] [iter=7] LSP targets found call_sites=91055 imports=3667 extends=1088 implements=0 secs=20
+[2026-11-24T05:28:07Z] [iter=7] Loaded checkpoint partial graph triples=49468
+[2026-11-24T05:28:07Z] [iter=7] Primed enclosing-def cache from persisted triples entries=442
+[2026-11-24T05:28:19Z] [iter=7] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=1086 MB
+[2026-11-24T05:29:15Z] [iter=7] Position index built positions=670846 nodes_with_types=867972 secs=56 mem_mb=1918 MB
+[2026-11-24T05:29:15Z] [iter=7] Step 3: Starting LSP resolution mem_mb=1918 MB already_completed_types=[] already_completed_files=9
+[2026-11-24T05:29:15Z] [iter=7] Resolving target type target_type=call_site count=91055
+[2026-11-24T05:29:16Z] [iter=7] HEARTBEAT target_type=call_site elapsed_min=4.6 files_done=0 resolved=0 errors=0 current=src/debugpy/_vendored/pydevd/pydevd.py
+[2026-11-24T05:54:40Z] [iter=7] CHECKPOINT TRIGGERED elapsed_min=30.0 files_completed=9 new_files_this_iter=0 mem_mb=1931 MB
+[2026-11-24T05:54:40Z] [iter=7] Writing partial enrichment graph path=/home/runner/work/forx/forx/storage/aggregate/lsp/e5017d736052d8d84484cdfe05750bd61cc7c50f.nq.gz triples=55911
+[2026-11-24T05:54:41Z] [iter=7] Checkpoint written, exiting with code 7
+[2026-11-24T05:54:41Z] [iter=7] PHASE END: enrich (checkpointed) elapsed_s=1802 elapsed_min=30.0 files_completed=9
