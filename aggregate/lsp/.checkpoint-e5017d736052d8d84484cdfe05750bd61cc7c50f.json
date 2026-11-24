@@ -2,13 +2,20 @@
   "commit_sha": "e5017d736052d8d84484cdfe05750bd61cc7c50f",
   "completed_files": [
     "src/debugpy/_vendored/pydevd/_pydev_bundle/pydev_console_utils.py",
+    "src/debugpy/_vendored/pydevd/_pydev_bundle/pydev_monkey.py",
+    "src/debugpy/_vendored/pydevd/_pydevd_bundle/pydevd_collect_bytecode_info.py",
     "src/debugpy/_vendored/pydevd/_pydevd_bundle/pydevd_comm.py",
     "src/debugpy/_vendored/pydevd/_pydevd_bundle/pydevd_constants.py",
     "src/debugpy/_vendored/pydevd/_pydevd_bundle/pydevd_net_command_factory_xml.py",
     "src/debugpy/_vendored/pydevd/_pydevd_frame_eval/vendored/bytecode/tests/test_peephole_opt.py",
+    "src/debugpy/_vendored/pydevd/build_tools/check_no_git_modifications.py",
+    "src/debugpy/_vendored/pydevd/pydevd.py",
+    "src/debugpy/_vendored/pydevd/tests/test_pyserver.py",
     "src/debugpy/_vendored/pydevd/tests_python/flask1/app.py",
     "src/debugpy/_vendored/pydevd/tests_python/resources/_debugger_case_attach_to_pid_multiple_threads.py",
+    "src/debugpy/_vendored/pydevd/tests_python/resources/_debugger_case_gui_event_loop_qt5.py",
     "src/debugpy/_vendored/pydevd/tests_python/test_debugger_json.py",
+    "src/debugpy/_vendored/pydevd/tests_python/test_safe_repr.py",
     "tests/debugpy/common/test_messaging.py"
   ],
   "completed_types": [],
@@ -17,7 +24,7 @@
     "output_path": "/home/runner/work/forx/forx/storage/aggregate/lsp/e5017d736052d8d84484cdfe05750bd61cc7c50f.nq.gz",
     "call_sites": 91055,
     "import_statements": 3667,
-    "call_targets_resolved": 4406,
+    "call_targets_resolved": 5341,
     "import_targets_resolved": 0,
     "symbols_exported": 0,
     "external_resolved": 0,
@@ -31,5 +38,5 @@
     "extends_class_denormalized": 1064,
     "implements_interface_denormalized": 0
   },
-  "elapsed_seconds": 1801
+  "elapsed_seconds": 1812
 }
