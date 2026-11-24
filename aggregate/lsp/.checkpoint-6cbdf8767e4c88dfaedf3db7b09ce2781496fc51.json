@@ -25,7 +25,9 @@
     "src/debugpy/_vendored/pydevd/pydevd_attach_to_process/windows/py_win_helpers.hpp",
     "src/debugpy/_vendored/pydevd/pydevd_attach_to_process/windows/run_code_in_memory.hpp",
     "src/debugpy/_vendored/pydevd/pydevd_attach_to_process/windows/run_code_on_dllmain.cpp",
-    "src/debugpy/_vendored/pydevd/pydevd_plugins/django_debug.py"
+    "src/debugpy/_vendored/pydevd/pydevd_plugins/django_debug.py",
+    "src/debugpy/_vendored/pydevd/tests_python/test_debugger_json.py",
+    "src/debugpy/_vendored/pydevd/tests_python/test_smart_step_into_bytecode.py"
   ],
   "completed_types": [],
   "stats": {
@@ -33,7 +35,7 @@
     "output_path": "/home/runner/work/forx/forx/storage/aggregate/lsp/6cbdf8767e4c88dfaedf3db7b09ce2781496fc51.nq.gz",
     "call_sites": 91010,
     "import_statements": 3665,
-    "call_targets_resolved": 3766,
+    "call_targets_resolved": 4435,
     "import_targets_resolved": 0,
     "symbols_exported": 0,
     "external_resolved": 0,
@@ -47,5 +49,5 @@
     "extends_class_denormalized": 1064,
     "implements_interface_denormalized": 0
   },
-  "elapsed_seconds": 1802
+  "elapsed_seconds": 1814
 }
