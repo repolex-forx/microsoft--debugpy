@@ -1,14 +1,17 @@
 {
   "commit_sha": "6cbdf8767e4c88dfaedf3db7b09ce2781496fc51",
   "completed_files": [
+    "src/debugpy/_vendored/pydevd/_pydev_bundle/pydev_console_utils.py",
     "src/debugpy/_vendored/pydevd/_pydev_runfiles/pydev_runfiles_xml_rpc.py",
     "src/debugpy/_vendored/pydevd/_pydevd_bundle/pydevd_cython.c",
     "src/debugpy/_vendored/pydevd/_pydevd_bundle/pydevd_io.py",
     "src/debugpy/_vendored/pydevd/_pydevd_bundle/pydevd_process_net_command_json.py",
+    "src/debugpy/_vendored/pydevd/_pydevd_bundle/pydevd_utils.py",
     "src/debugpy/_vendored/pydevd/_pydevd_frame_eval/pydevd_frame_evaluator.c",
     "src/debugpy/_vendored/pydevd/_pydevd_frame_eval/release_mem.h",
     "src/debugpy/_vendored/pydevd/_pydevd_sys_monitoring/_pydevd_sys_monitoring_cython.c",
     "src/debugpy/_vendored/pydevd/conftest.py",
+    "src/debugpy/_vendored/pydevd/pycompletionserver.py",
     "src/debugpy/_vendored/pydevd/pydevd_attach_to_process/common/py_custom_pyeval_settrace.hpp",
     "src/debugpy/_vendored/pydevd/pydevd_attach_to_process/common/py_custom_pyeval_settrace_310.hpp",
     "src/debugpy/_vendored/pydevd/pydevd_attach_to_process/common/py_custom_pyeval_settrace_311.hpp",
@@ -27,7 +30,8 @@
     "src/debugpy/_vendored/pydevd/pydevd_attach_to_process/windows/run_code_on_dllmain.cpp",
     "src/debugpy/_vendored/pydevd/pydevd_plugins/django_debug.py",
     "src/debugpy/_vendored/pydevd/tests_python/test_debugger_json.py",
-    "src/debugpy/_vendored/pydevd/tests_python/test_smart_step_into_bytecode.py"
+    "src/debugpy/_vendored/pydevd/tests_python/test_smart_step_into_bytecode.py",
+    "tests/debugpy/test_completions.py"
   ],
   "completed_types": [],
   "stats": {
@@ -35,7 +39,7 @@
     "output_path": "/home/runner/work/forx/forx/storage/aggregate/lsp/6cbdf8767e4c88dfaedf3db7b09ce2781496fc51.nq.gz",
     "call_sites": 91010,
     "import_statements": 3665,
-    "call_targets_resolved": 4435,
+    "call_targets_resolved": 5251,
     "import_targets_resolved": 0,
     "symbols_exported": 0,
     "external_resolved": 0,
@@ -49,5 +53,5 @@
     "extends_class_denormalized": 1064,
     "implements_interface_denormalized": 0
   },
-  "elapsed_seconds": 1814
+  "elapsed_seconds": 1818
 }
