@@ -1,0 +1,21 @@
+[2026-11-24T13:01:13Z] === ENRICH ITERATION 21 START | repo=microsoft/debugpy sha=e5017d73 ===
+[2026-11-24T13:01:13Z] [iter=21] PHASE START: enrich repo=microsoft/debugpy sha=e5017d73 runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/e5017d73-enrich-iter-021.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/e5017d736052d8d84484cdfe05750bd61cc7c50f.nq.gz
+[2026-11-24T13:01:13Z] [iter=21] Step 1: Loading AST into disk-backed store mem_mb=76 MB
+[2026-11-24T13:03:59Z] [iter=21] AST store loaded triples=10417946 load_secs=163 mem_mb=1190 MB
+[2026-11-24T13:03:59Z] [iter=21] Step 2: Finding LSP targets mem_mb=1190 MB
+[2026-11-24T13:04:18Z] [iter=21] LSP targets found call_sites=91055 imports=3667 extends=1088 implements=0 secs=19
+[2026-11-24T13:04:26Z] [iter=21] Loaded checkpoint partial graph triples=180516
+[2026-11-24T13:04:26Z] [iter=21] Primed enclosing-def cache from persisted triples entries=2912
+[2026-11-24T13:04:39Z] [iter=21] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=1190 MB
+[2026-11-24T13:05:30Z] [iter=21] Position index built positions=670846 nodes_with_types=867972 secs=51 mem_mb=2248 MB
+[2026-11-24T13:05:30Z] [iter=21] Step 3: Starting LSP resolution mem_mb=2248 MB already_completed_types=[] already_completed_files=89
+[2026-11-24T13:05:30Z] [iter=21] Resolving target type target_type=call_site count=91055
+[2026-11-24T13:05:32Z] [iter=21] HEARTBEAT target_type=call_site elapsed_min=4.3 files_done=0 resolved=0 errors=0 current=src/debugpy/_vendored/pydevd/_pydevd_bundle/pydevd_api.py
+[2026-11-24T13:07:31Z] [iter=21] HEARTBEAT target_type=call_site elapsed_min=6.3 files_done=1 resolved=57 errors=0 current=tests/debugpy/test_source_mapping.py
+[2026-11-24T13:08:20Z] [iter=21] HEARTBEAT target_type=call_site elapsed_min=7.1 files_done=2 resolved=86 errors=0 current=tests/debug/session.py
+[2026-11-24T13:15:39Z] [iter=21] HEARTBEAT target_type=call_site elapsed_min=14.4 files_done=3 resolved=286 errors=0 current=src/debugpy/_vendored/pydevd/build_tools/build_binaries_windows.py
+[2026-11-24T13:19:26Z] [iter=21] HEARTBEAT target_type=call_site elapsed_min=18.2 files_done=5 resolved=422 errors=0 current=src/debugpy/_vendored/pydevd/pydevd_attach_to_process/winappdbg/thread.py
+[2026-11-24T13:31:26Z] [iter=21] CHECKPOINT TRIGGERED elapsed_min=30.2 files_completed=94 new_files_this_iter=5 mem_mb=2259 MB
+[2026-11-24T13:31:26Z] [iter=21] Writing partial enrichment graph path=/home/runner/work/forx/forx/storage/aggregate/lsp/e5017d736052d8d84484cdfe05750bd61cc7c50f.nq.gz triples=186988
+[2026-11-24T13:31:28Z] [iter=21] Checkpoint written, exiting with code 7
+[2026-11-24T13:31:28Z] [iter=21] PHASE END: enrich (checkpointed) elapsed_s=1813 elapsed_min=30.2 files_completed=94
