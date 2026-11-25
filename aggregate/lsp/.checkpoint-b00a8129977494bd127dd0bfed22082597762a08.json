@@ -1,6 +1,8 @@
 {
   "commit_sha": "b00a8129977494bd127dd0bfed22082597762a08",
   "completed_files": [
+    "src/debugpy/_vendored/pydevd/_pydev_bundle/_pydev_saved_modules.py",
+    "src/debugpy/_vendored/pydevd/_pydev_runfiles/pydev_runfiles_coverage.py",
     "src/debugpy/_vendored/pydevd/_pydev_runfiles/pydev_runfiles_nose.py",
     "src/debugpy/_vendored/pydevd/_pydevd_bundle/_debug_adapter/__main__pydevd_gen_debug_adapter_protocol.py",
     "src/debugpy/_vendored/pydevd/_pydevd_bundle/_debug_adapter/pydevd_schema.py",
@@ -8,6 +10,7 @@
     "src/debugpy/_vendored/pydevd/_pydevd_bundle/pydevd_collect_bytecode_info.py",
     "src/debugpy/_vendored/pydevd/_pydevd_bundle/pydevd_cython.c",
     "src/debugpy/_vendored/pydevd/_pydevd_bundle/pydevd_frame.py",
+    "src/debugpy/_vendored/pydevd/_pydevd_bundle/pydevd_json_debug_options.py",
     "src/debugpy/_vendored/pydevd/_pydevd_bundle/pydevd_process_net_command.py",
     "src/debugpy/_vendored/pydevd/_pydevd_bundle/pydevd_reload.py",
     "src/debugpy/_vendored/pydevd/_pydevd_bundle/pydevd_safe_repr.py",
@@ -34,6 +37,7 @@
     "src/debugpy/_vendored/pydevd/pydevd_attach_to_process/winappdbg/interactive.py",
     "src/debugpy/_vendored/pydevd/pydevd_attach_to_process/winappdbg/process.py",
     "src/debugpy/_vendored/pydevd/pydevd_attach_to_process/winappdbg/registry.py",
+    "src/debugpy/_vendored/pydevd/pydevd_attach_to_process/winappdbg/win32/advapi32.py",
     "src/debugpy/_vendored/pydevd/pydevd_attach_to_process/winappdbg/win32/defines.py",
     "src/debugpy/_vendored/pydevd/pydevd_attach_to_process/winappdbg/win32/kernel32.py",
     "src/debugpy/_vendored/pydevd/pydevd_attach_to_process/winappdbg/win32/version.py",
@@ -69,6 +73,7 @@
     "tests/debugpy/test_args.py",
     "tests/debugpy/test_evaluate.py",
     "tests/debugpy/test_multiproc.py",
+    "tests/debugpy/test_path_mapping.py",
     "tests/debugpy/test_run.py",
     "tests/patterns/_impl.py",
     "tests/tests/test_timeline.py",
@@ -80,7 +85,7 @@
     "output_path": "/home/runner/work/forx/forx/storage/aggregate/lsp/b00a8129977494bd127dd0bfed22082597762a08.nq.gz",
     "call_sites": 91007,
     "import_statements": 3664,
-    "call_targets_resolved": 14334,
+    "call_targets_resolved": 15035,
     "import_targets_resolved": 0,
     "symbols_exported": 0,
     "external_resolved": 0,
@@ -94,5 +99,5 @@
     "extends_class_denormalized": 1064,
     "implements_interface_denormalized": 0
   },
-  "elapsed_seconds": 1818
+  "elapsed_seconds": 1808
 }
