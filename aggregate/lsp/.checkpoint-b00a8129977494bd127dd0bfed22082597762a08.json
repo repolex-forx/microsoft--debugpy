@@ -21,18 +21,22 @@
     "src/debugpy/_vendored/pydevd/pydevd_attach_to_process/common/ref_utils.hpp",
     "src/debugpy/_vendored/pydevd/pydevd_attach_to_process/linux_and_mac/attach.cpp",
     "src/debugpy/_vendored/pydevd/pydevd_attach_to_process/winappdbg/interactive.py",
+    "src/debugpy/_vendored/pydevd/pydevd_attach_to_process/winappdbg/win32/kernel32.py",
     "src/debugpy/_vendored/pydevd/pydevd_attach_to_process/windows/attach.cpp",
     "src/debugpy/_vendored/pydevd/pydevd_attach_to_process/windows/inject_dll.cpp",
     "src/debugpy/_vendored/pydevd/pydevd_attach_to_process/windows/py_win_helpers.hpp",
     "src/debugpy/_vendored/pydevd/pydevd_attach_to_process/windows/run_code_in_memory.hpp",
     "src/debugpy/_vendored/pydevd/pydevd_attach_to_process/windows/run_code_on_dllmain.cpp",
+    "src/debugpy/_vendored/pydevd/pydevd_file_utils.py",
+    "src/debugpy/_vendored/pydevd/tests_python/debugger_fixtures.py",
     "src/debugpy/_vendored/pydevd/tests_python/resources/_debugger_case_completions.py",
     "src/debugpy/_vendored/pydevd/tests_python/resources/_debugger_case_gui_event_loop_qt5.py",
     "src/debugpy/_vendored/pydevd/tests_python/test_debugger.py",
     "src/debugpy/_vendored/pydevd/tests_python/test_debugger_json.py",
     "src/debugpy/_vendored/pydevd/tests_python/test_fixtures.py",
     "src/debugpy/_vendored/pydevd/tests_python/test_pydevd_filtering.py",
-    "src/debugpy/_version.py"
+    "src/debugpy/_version.py",
+    "subrepo.py"
   ],
   "completed_types": [],
   "stats": {
@@ -40,7 +44,7 @@
     "output_path": "/home/runner/work/forx/forx/storage/aggregate/lsp/b00a8129977494bd127dd0bfed22082597762a08.nq.gz",
     "call_sites": 91007,
     "import_statements": 3664,
-    "call_targets_resolved": 7031,
+    "call_targets_resolved": 7887,
     "import_targets_resolved": 0,
     "symbols_exported": 0,
     "external_resolved": 0,
@@ -54,5 +58,5 @@
     "extends_class_denormalized": 1064,
     "implements_interface_denormalized": 0
   },
-  "elapsed_seconds": 1823
+  "elapsed_seconds": 1802
 }
