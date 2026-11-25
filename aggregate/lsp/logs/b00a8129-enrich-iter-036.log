@@ -1,0 +1,33 @@
+[2026-11-25T20:31:04Z] === ENRICH ITERATION 36 START | repo=microsoft/debugpy sha=b00a8129 ===
+[2026-11-25T20:31:04Z] [iter=36] PHASE START: enrich repo=microsoft/debugpy sha=b00a8129 runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/b00a8129-enrich-iter-036.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/b00a8129977494bd127dd0bfed22082597762a08.nq.gz
+[2026-11-25T20:31:04Z] [iter=36] Step 1: Loading AST into disk-backed store mem_mb=76 MB
+[2026-11-25T20:33:46Z] [iter=36] AST store loaded triples=10411201 load_secs=159 mem_mb=1071 MB
+[2026-11-25T20:33:46Z] [iter=36] Step 2: Finding LSP targets mem_mb=1071 MB
+[2026-11-25T20:34:03Z] [iter=36] LSP targets found call_sites=91007 imports=3664 extends=1088 implements=0 secs=17
+[2026-11-25T20:34:18Z] [iter=36] Loaded checkpoint partial graph triples=316485
+[2026-11-25T20:34:18Z] [iter=36] Primed enclosing-def cache from persisted triples entries=4470
+[2026-11-25T20:34:29Z] [iter=36] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=1233 MB
+[2026-11-25T20:35:17Z] [iter=36] Position index built positions=670382 nodes_with_types=867378 secs=49 mem_mb=2571 MB
+[2026-11-25T20:35:17Z] [iter=36] Step 3: Starting LSP resolution mem_mb=2571 MB already_completed_types=[] already_completed_files=222
+[2026-11-25T20:35:17Z] [iter=36] Resolving target type target_type=call_site count=91007
+[2026-11-25T20:35:21Z] [iter=36] HEARTBEAT target_type=call_site elapsed_min=4.3 files_done=0 resolved=0 errors=0 current=src/debugpy/_vendored/pydevd/_pydevd_frame_eval/vendored/bytecode/peephole_opt.py
+[2026-11-25T20:36:36Z] [iter=36] HEARTBEAT target_type=call_site elapsed_min=5.5 files_done=1 resolved=28 errors=0 current=src/debugpy/_vendored/pydevd/_pydevd_bundle/pydevd_concurrency_analyser/pydevd_thread_wrappers.py
+[2026-11-25T20:37:21Z] [iter=36] HEARTBEAT target_type=call_site elapsed_min=6.3 files_done=2 resolved=49 errors=0 current=src/debugpy/_vendored/pydevd/_pydevd_bundle/pydevd_constants.py
+[2026-11-25T20:39:27Z] [iter=36] HEARTBEAT target_type=call_site elapsed_min=8.4 files_done=3 resolved=171 errors=0 current=src/debugpy/_vendored/pydevd/pydev_ipython/inputhookqt6.py
+[2026-11-25T20:43:06Z] [iter=36] HEARTBEAT target_type=call_site elapsed_min=12.0 files_done=5 resolved=272 errors=0 current=src/debugpy/_vendored/_pydevd_packaging.py
+[2026-11-25T20:44:23Z] [iter=36] HEARTBEAT target_type=call_site elapsed_min=13.3 files_done=7 resolved=324 errors=0 current=src/debugpy/_vendored/pydevd/_pydev_bundle/pydev_log.py
+[2026-11-25T20:45:22Z] [iter=36] HEARTBEAT target_type=call_site elapsed_min=14.3 files_done=8 resolved=371 errors=0 current=src/debugpy/_vendored/pydevd/build_tools/build_binaries_windows.py
+[2026-11-25T20:46:37Z] [iter=36] HEARTBEAT target_type=call_site elapsed_min=15.6 files_done=10 resolved=447 errors=0 current=src/debugpy/_vendored/pydevd/_pydevd_bundle/pydevd_trace_dispatch_regular.py
+[2026-11-25T20:48:51Z] [iter=36] HEARTBEAT target_type=call_site elapsed_min=17.8 files_done=11 resolved=488 errors=0 current=src/debugpy/_vendored/pydevd/tests/test_jyserver.py
+[2026-11-25T20:49:46Z] [iter=36] HEARTBEAT target_type=call_site elapsed_min=18.7 files_done=12 resolved=545 errors=0 current=src/debugpy/_vendored/pydevd/tests_python/resources/_debugger_case_breakpoint_remote_no_import.py
+[2026-11-25T20:53:35Z] [iter=36] HEARTBEAT target_type=call_site elapsed_min=22.5 files_done=14 resolved=676 errors=0 current=src/debugpy/_vendored/pydevd/_pydev_bundle/pydev_ipython_console.py
+[2026-11-25T20:54:11Z] [iter=36] HEARTBEAT target_type=call_site elapsed_min=23.1 files_done=17 resolved=736 errors=0 current=src/debugpy/_vendored/pydevd/tests_python/resources/_debugger_case_remote_unhandled_exceptions2.py
+[2026-11-25T20:55:01Z] [iter=36] HEARTBEAT target_type=call_site elapsed_min=24.0 files_done=20 resolved=807 errors=0 current=src/debugpy/_vendored/pydevd/pydevd_attach_to_process/winappdbg/win32/psapi.py
+[2026-11-25T20:57:51Z] [iter=36] HEARTBEAT target_type=call_site elapsed_min=26.8 files_done=21 resolved=879 errors=0 current=src/debugpy/_vendored/pydevd/_pydevd_bundle/pydevd_runpy.py
+[2026-11-25T20:59:37Z] [iter=36] HEARTBEAT target_type=call_site elapsed_min=28.6 files_done=22 resolved=950 errors=0 current=tests/net.py
+[2026-11-25T21:00:09Z] [iter=36] HEARTBEAT target_type=call_site elapsed_min=29.1 files_done=23 resolved=977 errors=0 current=src/debugpy/common/sockets.py
+[2026-11-25T21:00:55Z] [iter=36] HEARTBEAT target_type=call_site elapsed_min=29.9 files_done=24 resolved=1017 errors=0 current=src/debugpy/_vendored/pydevd/tests_python/resources/_debugger_case_show_bytecode.py
+[2026-11-25T21:01:09Z] [iter=36] CHECKPOINT TRIGGERED elapsed_min=30.1 files_completed=249 new_files_this_iter=27 mem_mb=2571 MB
+[2026-11-25T21:01:09Z] [iter=36] Writing partial enrichment graph path=/home/runner/work/forx/forx/storage/aggregate/lsp/b00a8129977494bd127dd0bfed22082597762a08.nq.gz triples=325928
+[2026-11-25T21:01:13Z] [iter=36] Checkpoint written, exiting with code 7
+[2026-11-25T21:01:13Z] [iter=36] PHASE END: enrich (checkpointed) elapsed_s=1806 elapsed_min=30.1 files_completed=249
