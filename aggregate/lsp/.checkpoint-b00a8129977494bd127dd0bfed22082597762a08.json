@@ -16,6 +16,7 @@
     "src/debugpy/_vendored/pydevd/_pydevd_frame_eval/release_mem.h",
     "src/debugpy/_vendored/pydevd/_pydevd_frame_eval/vendored/bytecode/tests/test_cfg.py",
     "src/debugpy/_vendored/pydevd/_pydevd_frame_eval/vendored/bytecode/tests/test_concrete.py",
+    "src/debugpy/_vendored/pydevd/_pydevd_frame_eval/vendored/bytecode/tests/test_peephole_opt.py",
     "src/debugpy/_vendored/pydevd/_pydevd_sys_monitoring/_pydevd_sys_monitoring_cython.c",
     "src/debugpy/_vendored/pydevd/build_tools/build_binaries_osx.py",
     "src/debugpy/_vendored/pydevd/pydevd.py",
@@ -29,6 +30,7 @@
     "src/debugpy/_vendored/pydevd/pydevd_attach_to_process/common/ref_utils.hpp",
     "src/debugpy/_vendored/pydevd/pydevd_attach_to_process/linux_and_mac/attach.cpp",
     "src/debugpy/_vendored/pydevd/pydevd_attach_to_process/winappdbg/crash.py",
+    "src/debugpy/_vendored/pydevd/pydevd_attach_to_process/winappdbg/debug.py",
     "src/debugpy/_vendored/pydevd/pydevd_attach_to_process/winappdbg/interactive.py",
     "src/debugpy/_vendored/pydevd/pydevd_attach_to_process/winappdbg/process.py",
     "src/debugpy/_vendored/pydevd/pydevd_attach_to_process/winappdbg/registry.py",
@@ -62,6 +64,7 @@
     "src/debugpy/common/json.py",
     "src/debugpy/common/stacks.py",
     "src/debugpy/launcher/output.py",
+    "src/debugpy/server/cli.py",
     "subrepo.py",
     "tests/debugpy/test_args.py",
     "tests/debugpy/test_evaluate.py",
@@ -77,7 +80,7 @@
     "output_path": "/home/runner/work/forx/forx/storage/aggregate/lsp/b00a8129977494bd127dd0bfed22082597762a08.nq.gz",
     "call_sites": 91007,
     "import_statements": 3664,
-    "call_targets_resolved": 13405,
+    "call_targets_resolved": 14334,
     "import_targets_resolved": 0,
     "symbols_exported": 0,
     "external_resolved": 0,
@@ -91,5 +94,5 @@
     "extends_class_denormalized": 1064,
     "implements_interface_denormalized": 0
   },
-  "elapsed_seconds": 1840
+  "elapsed_seconds": 1818
 }
