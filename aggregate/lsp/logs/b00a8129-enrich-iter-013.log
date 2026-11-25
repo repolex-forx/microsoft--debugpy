@@ -1,0 +1,23 @@
+[2026-11-25T06:21:35Z] === ENRICH ITERATION 13 START | repo=microsoft/debugpy sha=b00a8129 ===
+[2026-11-25T06:21:35Z] [iter=13] PHASE START: enrich repo=microsoft/debugpy sha=b00a8129 runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/b00a8129-enrich-iter-013.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/b00a8129977494bd127dd0bfed22082597762a08.nq.gz
+[2026-11-25T06:21:35Z] [iter=13] Step 1: Loading AST into disk-backed store mem_mb=77 MB
+[2026-11-25T06:24:40Z] [iter=13] AST store loaded triples=10411201 load_secs=182 mem_mb=1172 MB
+[2026-11-25T06:24:40Z] [iter=13] Step 2: Finding LSP targets mem_mb=1172 MB
+[2026-11-25T06:24:59Z] [iter=13] LSP targets found call_sites=91007 imports=3664 extends=1088 implements=0 secs=19
+[2026-11-25T06:25:07Z] [iter=13] Loaded checkpoint partial graph triples=152045
+[2026-11-25T06:25:07Z] [iter=13] Primed enclosing-def cache from persisted triples entries=1423
+[2026-11-25T06:25:19Z] [iter=13] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=1172 MB
+[2026-11-25T06:26:15Z] [iter=13] Position index built positions=670382 nodes_with_types=867378 secs=56 mem_mb=2223 MB
+[2026-11-25T06:26:15Z] [iter=13] Step 3: Starting LSP resolution mem_mb=2223 MB already_completed_types=[] already_completed_files=51
+[2026-11-25T06:26:15Z] [iter=13] Resolving target type target_type=call_site count=91007
+[2026-11-25T06:26:19Z] [iter=13] HEARTBEAT target_type=call_site elapsed_min=4.7 files_done=0 resolved=0 errors=0 current=src/debugpy/_vendored/pydevd/_pydevd_bundle/pydevd_api.py
+[2026-11-25T06:29:46Z] [iter=13] HEARTBEAT target_type=call_site elapsed_min=8.2 files_done=1 resolved=94 errors=0 current=tests/tests/test_timeline.py
+[2026-11-25T06:38:05Z] [iter=13] HEARTBEAT target_type=call_site elapsed_min=16.5 files_done=2 resolved=281 errors=0 current=tests/debugpy/test_args.py
+[2026-11-25T06:38:45Z] [iter=13] HEARTBEAT target_type=call_site elapsed_min=17.2 files_done=3 resolved=298 errors=0 current=src/debugpy/_vendored/pydevd/tests_python/resources/_debugger_case_unhandled_exception_get_stack.py
+[2026-11-25T06:39:28Z] [iter=13] HEARTBEAT target_type=call_site elapsed_min=17.9 files_done=5 resolved=352 errors=0 current=tests/patterns/_impl.py
+[2026-11-25T06:40:31Z] [iter=13] HEARTBEAT target_type=call_site elapsed_min=18.9 files_done=6 resolved=423 errors=0 current=src/debugpy/launcher/output.py
+[2026-11-25T06:41:03Z] [iter=13] HEARTBEAT target_type=call_site elapsed_min=19.5 files_done=7 resolved=447 errors=0 current=src/debugpy/_vendored/pydevd/pydevd.py
+[2026-11-25T06:51:44Z] [iter=13] CHECKPOINT TRIGGERED elapsed_min=30.1 files_completed=58 new_files_this_iter=7 mem_mb=2231 MB
+[2026-11-25T06:51:44Z] [iter=13] Writing partial enrichment graph path=/home/runner/work/forx/forx/storage/aggregate/lsp/b00a8129977494bd127dd0bfed22082597762a08.nq.gz triples=159266
+[2026-11-25T06:51:45Z] [iter=13] Checkpoint written, exiting with code 7
+[2026-11-25T06:51:45Z] [iter=13] PHASE END: enrich (checkpointed) elapsed_s=1809 elapsed_min=30.1 files_completed=58
