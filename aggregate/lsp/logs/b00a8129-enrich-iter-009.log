@@ -1,0 +1,17 @@
+[2026-11-25T04:10:48Z] === ENRICH ITERATION 9 START | repo=microsoft/debugpy sha=b00a8129 ===
+[2026-11-25T04:10:48Z] [iter=9] PHASE START: enrich repo=microsoft/debugpy sha=b00a8129 runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/b00a8129-enrich-iter-009.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/b00a8129977494bd127dd0bfed22082597762a08.nq.gz
+[2026-11-25T04:10:48Z] [iter=9] Step 1: Loading AST into disk-backed store mem_mb=76 MB
+[2026-11-25T04:12:53Z] [iter=9] AST store loaded triples=10411201 load_secs=121 mem_mb=1064 MB
+[2026-11-25T04:12:53Z] [iter=9] Step 2: Finding LSP targets mem_mb=1064 MB
+[2026-11-25T04:13:15Z] [iter=9] LSP targets found call_sites=91007 imports=3664 extends=1088 implements=0 secs=22
+[2026-11-25T04:13:23Z] [iter=9] Loaded checkpoint partial graph triples=123536
+[2026-11-25T04:13:23Z] [iter=9] Primed enclosing-def cache from persisted triples entries=799
+[2026-11-25T04:13:37Z] [iter=9] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=1064 MB
+[2026-11-25T04:14:51Z] [iter=9] Position index built positions=670382 nodes_with_types=867378 secs=74 mem_mb=2108 MB
+[2026-11-25T04:14:51Z] [iter=9] Step 3: Starting LSP resolution mem_mb=2108 MB already_completed_types=[] already_completed_files=32
+[2026-11-25T04:14:51Z] [iter=9] Resolving target type target_type=call_site count=91007
+[2026-11-25T04:14:58Z] [iter=9] HEARTBEAT target_type=call_site elapsed_min=4.2 files_done=0 resolved=0 errors=0 current=src/debugpy/_vendored/pydevd/pydevd_attach_to_process/winappdbg/win32/kernel32.py
+[2026-11-25T04:41:11Z] [iter=9] CHECKPOINT TRIGGERED elapsed_min=30.4 files_completed=32 new_files_this_iter=0 mem_mb=2108 MB
+[2026-11-25T04:41:11Z] [iter=9] Writing partial enrichment graph path=/home/runner/work/forx/forx/storage/aggregate/lsp/b00a8129977494bd127dd0bfed22082597762a08.nq.gz triples=127423
+[2026-11-25T04:41:13Z] [iter=9] Checkpoint written, exiting with code 7
+[2026-11-25T04:41:13Z] [iter=9] PHASE END: enrich (checkpointed) elapsed_s=1823 elapsed_min=30.4 files_completed=32
