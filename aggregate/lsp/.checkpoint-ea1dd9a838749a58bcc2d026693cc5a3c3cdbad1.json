@@ -12,6 +12,7 @@
     "src/debugpy/_vendored/pydevd/_pydevd_bundle/pydevd_frame.py",
     "src/debugpy/_vendored/pydevd/_pydevd_bundle/pydevd_net_command_factory_json.py",
     "src/debugpy/_vendored/pydevd/_pydevd_bundle/pydevd_process_net_command.py",
+    "src/debugpy/_vendored/pydevd/_pydevd_bundle/pydevd_process_net_command_json.py",
     "src/debugpy/_vendored/pydevd/_pydevd_bundle/pydevd_runpy.py",
     "src/debugpy/_vendored/pydevd/_pydevd_bundle/pydevd_stackless.py",
     "src/debugpy/_vendored/pydevd/_pydevd_bundle/pydevd_vars.py",
@@ -27,6 +28,7 @@
     "src/debugpy/_vendored/pydevd/pydevd_attach_to_process/winappdbg/debug.py",
     "src/debugpy/_vendored/pydevd/pydevd_attach_to_process/winappdbg/interactive.py",
     "src/debugpy/_vendored/pydevd/pydevd_attach_to_process/winappdbg/module.py",
+    "src/debugpy/_vendored/pydevd/pydevd_attach_to_process/winappdbg/process.py",
     "src/debugpy/_vendored/pydevd/pydevd_attach_to_process/winappdbg/registry.py",
     "src/debugpy/_vendored/pydevd/pydevd_attach_to_process/winappdbg/textio.py",
     "src/debugpy/_vendored/pydevd/pydevd_attach_to_process/winappdbg/thread.py",
@@ -41,6 +43,7 @@
     "src/debugpy/_vendored/pydevd/tests_mainloop/gui-wx.py",
     "src/debugpy/_vendored/pydevd/tests_python/debugger_unittest.py",
     "src/debugpy/_vendored/pydevd/tests_python/regression_check.py",
+    "src/debugpy/_vendored/pydevd/tests_python/resources/_debugger_case_custom_frames.py",
     "src/debugpy/_vendored/pydevd/tests_python/resources/_debugger_case_source_mapping.py",
     "src/debugpy/_vendored/pydevd/tests_python/test_bytecode_manipulation.py",
     "src/debugpy/_vendored/pydevd/tests_python/test_convert_utilities.py",
@@ -59,6 +62,7 @@
     "src/debugpy/adapter/__main__.py",
     "src/debugpy/adapter/sessions.py",
     "tests/debug/comms.py",
+    "tests/debug/config.py",
     "tests/debugpy/common/test_messaging.py",
     "tests/debugpy/test_breakpoints.py",
     "tests/debugpy/test_evaluate.py",
@@ -72,7 +76,7 @@
     "output_path": "/home/runner/work/forx/forx/storage/aggregate/lsp/ea1dd9a838749a58bcc2d026693cc5a3c3cdbad1.nq.gz",
     "call_sites": 90993,
     "import_statements": 3656,
-    "call_targets_resolved": 15440,
+    "call_targets_resolved": 16063,
     "import_targets_resolved": 0,
     "symbols_exported": 0,
     "external_resolved": 0,
@@ -86,5 +90,5 @@
     "extends_class_denormalized": 1064,
     "implements_interface_denormalized": 0
   },
-  "elapsed_seconds": 1837
+  "elapsed_seconds": 1804
 }
