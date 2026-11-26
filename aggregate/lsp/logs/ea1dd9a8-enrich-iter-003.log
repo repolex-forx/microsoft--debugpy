@@ -1,0 +1,17 @@
+[2026-11-26T01:56:54Z] === ENRICH ITERATION 3 START | repo=microsoft/debugpy sha=ea1dd9a8 ===
+[2026-11-26T01:56:54Z] [iter=3] PHASE START: enrich repo=microsoft/debugpy sha=ea1dd9a8 runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/ea1dd9a8-enrich-iter-003.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/ea1dd9a838749a58bcc2d026693cc5a3c3cdbad1.nq.gz
+[2026-11-26T01:56:54Z] [iter=3] Step 1: Loading AST into disk-backed store mem_mb=77 MB
+[2026-11-26T01:59:34Z] [iter=3] AST store loaded triples=10408003 load_secs=158 mem_mb=1130 MB
+[2026-11-26T01:59:34Z] [iter=3] Step 2: Finding LSP targets mem_mb=1130 MB
+[2026-11-26T01:59:52Z] [iter=3] LSP targets found call_sites=90993 imports=3656 extends=1088 implements=0 secs=17
+[2026-11-26T01:59:53Z] [iter=3] Loaded checkpoint partial graph triples=34577
+[2026-11-26T01:59:53Z] [iter=3] Primed enclosing-def cache from persisted triples entries=274
+[2026-11-26T02:00:04Z] [iter=3] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=1130 MB
+[2026-11-26T02:00:53Z] [iter=3] Position index built positions=670166 nodes_with_types=867099 secs=49 mem_mb=1957 MB
+[2026-11-26T02:00:53Z] [iter=3] Step 3: Starting LSP resolution mem_mb=1957 MB already_completed_types=[] already_completed_files=9
+[2026-11-26T02:00:53Z] [iter=3] Resolving target type target_type=call_site count=90993
+[2026-11-26T02:00:55Z] [iter=3] HEARTBEAT target_type=call_site elapsed_min=4.0 files_done=0 resolved=0 errors=0 current=src/debugpy/_vendored/pydevd/tests_python/test_debugger_json.py
+[2026-11-26T02:26:54Z] [iter=3] CHECKPOINT TRIGGERED elapsed_min=30.0 files_completed=9 new_files_this_iter=0 mem_mb=1965 MB
+[2026-11-26T02:26:54Z] [iter=3] Writing partial enrichment graph path=/home/runner/work/forx/forx/storage/aggregate/lsp/ea1dd9a838749a58bcc2d026693cc5a3c3cdbad1.nq.gz triples=40039
+[2026-11-26T02:26:55Z] [iter=3] Checkpoint written, exiting with code 7
+[2026-11-26T02:26:55Z] [iter=3] PHASE END: enrich (checkpointed) elapsed_s=1801 elapsed_min=30.0 files_completed=9
