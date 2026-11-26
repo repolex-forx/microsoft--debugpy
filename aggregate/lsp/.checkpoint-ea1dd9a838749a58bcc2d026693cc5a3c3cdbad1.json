@@ -10,10 +10,16 @@
     "src/debugpy/_vendored/pydevd/pydev_ipython/inputhookpyglet.py",
     "src/debugpy/_vendored/pydevd/pydevd_attach_to_process/winappdbg/interactive.py",
     "src/debugpy/_vendored/pydevd/pydevd_attach_to_process/winappdbg/textio.py",
+    "src/debugpy/_vendored/pydevd/pydevd_attach_to_process/winappdbg/thread.py",
     "src/debugpy/_vendored/pydevd/pydevd_attach_to_process/winappdbg/win32/advapi32.py",
+    "src/debugpy/_vendored/pydevd/test_pydevd_reload/test_pydevd_reload.py",
     "src/debugpy/_vendored/pydevd/tests_python/regression_check.py",
+    "src/debugpy/_vendored/pydevd/tests_python/test_debugger.py",
     "src/debugpy/_vendored/pydevd/tests_python/test_debugger_json.py",
-    "src/debugpy/_vendored/pydevd/tests_runfiles/test_pydevd_property.py"
+    "src/debugpy/_vendored/pydevd/tests_python/test_fixtures.py",
+    "src/debugpy/_vendored/pydevd/tests_runfiles/test_pydevd_property.py",
+    "tests/tests/test_patterns.py",
+    "versioneer.py"
   ],
   "completed_types": [],
   "stats": {
@@ -21,7 +27,7 @@
     "output_path": "/home/runner/work/forx/forx/storage/aggregate/lsp/ea1dd9a838749a58bcc2d026693cc5a3c3cdbad1.nq.gz",
     "call_sites": 90993,
     "import_statements": 3656,
-    "call_targets_resolved": 6312,
+    "call_targets_resolved": 7514,
     "import_targets_resolved": 0,
     "symbols_exported": 0,
     "external_resolved": 0,
