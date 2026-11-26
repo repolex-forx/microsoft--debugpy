@@ -1,0 +1,17 @@
+[2026-11-26T11:12:59Z] === ENRICH ITERATION 20 START | repo=microsoft/debugpy sha=ea1dd9a8 ===
+[2026-11-26T11:12:59Z] [iter=20] PHASE START: enrich repo=microsoft/debugpy sha=ea1dd9a8 runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/ea1dd9a8-enrich-iter-020.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/ea1dd9a838749a58bcc2d026693cc5a3c3cdbad1.nq.gz
+[2026-11-26T11:12:59Z] [iter=20] Step 1: Loading AST into disk-backed store mem_mb=77 MB
+[2026-11-26T11:15:04Z] [iter=20] AST store loaded triples=10408003 load_secs=120 mem_mb=1191 MB
+[2026-11-26T11:15:04Z] [iter=20] Step 2: Finding LSP targets mem_mb=1191 MB
+[2026-11-26T11:15:27Z] [iter=20] LSP targets found call_sites=90993 imports=3656 extends=1088 implements=0 secs=23
+[2026-11-26T11:15:37Z] [iter=20] Loaded checkpoint partial graph triples=163276
+[2026-11-26T11:15:37Z] [iter=20] Primed enclosing-def cache from persisted triples entries=2494
+[2026-11-26T11:15:51Z] [iter=20] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=1191 MB
+[2026-11-26T11:17:07Z] [iter=20] Position index built positions=670166 nodes_with_types=867099 secs=76 mem_mb=2173 MB
+[2026-11-26T11:17:07Z] [iter=20] Step 3: Starting LSP resolution mem_mb=2173 MB already_completed_types=[] already_completed_files=68
+[2026-11-26T11:17:07Z] [iter=20] Resolving target type target_type=call_site count=90993
+[2026-11-26T11:17:09Z] [iter=20] HEARTBEAT target_type=call_site elapsed_min=4.2 files_done=0 resolved=0 errors=0 current=src/debugpy/_vendored/pydevd/pydevd_attach_to_process/winappdbg/win32/kernel32.py
+[2026-11-26T11:43:36Z] [iter=20] CHECKPOINT TRIGGERED elapsed_min=30.6 files_completed=68 new_files_this_iter=0 mem_mb=2177 MB
+[2026-11-26T11:43:36Z] [iter=20] Writing partial enrichment graph path=/home/runner/work/forx/forx/storage/aggregate/lsp/ea1dd9a838749a58bcc2d026693cc5a3c3cdbad1.nq.gz triples=167447
+[2026-11-26T11:43:39Z] [iter=20] Checkpoint written, exiting with code 7
+[2026-11-26T11:43:39Z] [iter=20] PHASE END: enrich (checkpointed) elapsed_s=1837 elapsed_min=30.6 files_completed=68
